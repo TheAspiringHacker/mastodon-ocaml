@@ -1,0 +1,5 @@
+(library
+  (name Entities)
+  (public_name mastodon.entities)
+  (libraries yojson ppx_deriving_yojson)
+  (preprocess (pps ppx_deriving_yojson)))
